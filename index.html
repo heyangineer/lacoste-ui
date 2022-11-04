@@ -1,0 +1,2335 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=3.0"
+    />
+    <title>라코스테 LACOSTE</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <style type="text/css"></style>
+    <script
+      type="text/javascript"
+      src="http://code.jquery.com/jquery-latest.js"
+    ></script>
+    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <header>
+      <div class="header_box space-betweens">
+        <a href="#" class="logo_box">
+          <img
+            src="https://github.com/heyangineer/lacoste-ui/blob/main/img/Lacoste-Logo-700x394.png?raw=true"
+            alt="lacoste"
+          />
+        </a>
+
+        <div class="right_menu" style="padding-bottom:10px;">
+          <ul>
+            <li>
+              <span style="margin-right: -7px;" class="material-symbols-outlined search_trigger">
+                search
+              </span>
+              <div class="search_contents">
+                <div class="search_content">
+                  <button class="search_close">
+                    <span class="material-symbols-outlined"> close </span>
+                  </button>
+                  <form action="find_out" method="get">
+                    <div class="input_wraper">
+                      <button>
+                        <span class="material-symbols-outlined"> search </span>
+                      </button>
+                      <input style="padding: 10px 45px; width: 90%;"
+                        type="search"
+                        placeholder="검색어를 입력해주세요."
+                      />
+                    </div>
+                  </form>
+                  <div class="suggestions_wraper">
+                    <div class="nodata">
+                      <p>최근 검색어가 없습니다.</p>
+                    </div>
+                    <div class="suggestions">
+                      <p>인기검색어</p>
+                      <div class="recommend">
+                        <ul>
+                          <li>스웨터 & 스웻셔츠</li>
+                          <li>스니커즈</li>
+                          <li>팀 크록</li>
+                          <li>키즈</li>
+                          <li>신상품</li>
+                          <li>FW21</li>
+                          <li>SS21</li>
+                          <li>남성 세일</li>
+                          <li>여성 세일</li>
+                          <li>폴로</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="search_dashboard_wraper">
+                  
+                  <div class="mobile_contents">
+                    <img
+                      src="https://user-images.githubusercontent.com/102783842/198179139-86d0b1f8-6606-44ab-bb79-8be85f86cde7.jpg"
+                      alt=""
+                    />
+                  </div>
+                  <div class="mobile_contents">
+                    <img
+                      src="https://user-images.githubusercontent.com/102783842/198179288-3be7928f-3cab-414c-b557-f003685883ba.jpg"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li>
+              <span class="material-symbols-outlined" onclick="alert('준비중 입니다.')"> shopping_bag </span>
+            </li>
+            <li class="gnb_box">
+              <div class="navbar">
+                <span class="menuOpener material-symbols-outlined"> menu </span>
+                <span class="material-symbols-outlined menuCloser">
+                  close
+                </span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <div class="menu">
+      <ul class="main_menu">
+        <li class="main_menu_home">
+          <span>홈</span>
+        </li>
+        <li>
+          <span>New</span>
+        </li>
+        <li>
+          <span>Men</span>
+        </li>
+        <li>
+          <span>Women</span>
+        </li>
+        <li>
+          <span>Kids</span>
+        </li>
+        <li>
+          <span>Sale</span>
+        </li>
+        <li>
+          <span>Polo</span>
+        </li>
+        <li>
+          <span>Collections</span>
+        </li>
+        <li>
+          <span>We are Lacoste</span>
+        </li>
+        <li class="mobile">
+          <div class="myaccount">
+            <p>
+              <span>
+                <span class="material-symbols-outlined"> person </span>
+                마이페이지
+              </span>
+            </p>
+          </div>
+          <div class="menu_links">
+            <p>
+              <span class="material-symbols-outlined"> location_on </span>
+              <span>매장 찾기</span>
+            </p>
+            <p>
+              <span class="material-symbols-outlined"> live_help </span>
+              고객센터
+            </p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <ul class="submenu">
+      <li class="submenu_list">
+        
+        <div class="sub_item_container">
+          <div class="backerBox">
+            <button class="backer">
+              <span class="material-symbols-outlined"> arrow_back </span>
+            </button>
+            <span class="sub_firstDepth">
+              <span class="hometxt">홈</span> /
+              <span class="first_sub">New</span>
+            </span>
+          </div>
+          <div class="sub_item_inner">
+            <ul class="s_items_container">
+              <li class="s_items_main_title">
+                <span>신상품 전체보기</span>
+                <span>스웨터 & 스웻셔츠</span>
+                <span>팀 크록</span>
+                <span>온라인 단독</span>
+              </li>
+              <li>
+                <span> 남성</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">New</span> /
+                        <span class="second_sub">남성</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">의류</p>
+                    <p class="second_sub_item">신발</p>
+                    <p class="second_sub_item">액세서리</p>
+                    <p class="second_sub_item">레더굿</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>여성</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">New</span> /
+                        <span class="second_sub">여성</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">의류</p>
+                    <p class="second_sub_item">신발</p>
+                    <p class="second_sub_item">액세서리</p>
+                    <p class="second_sub_item">레더굿</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>키즈</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">New</span> /
+                        <span class="second_sub">키즈</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">의류</p>
+                    <p class="second_sub_item">신발</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>L!VE & SPORTS</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">New</span> /
+                        <span class="second_sub">L!VE & SPORTS</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">스포츠 컬렉션</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="s_item_imgBox">
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197937908-14cd91cd-4002-4dc6-9021-eb778d9df6e1.jpg"
+                    alt=""
+                  />
+                </div>
+                스웨터 & 스웻셔츠
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197937903-4e8cbc03-42f5-421e-bd97-1a41e8ad0623.jpg"
+                    alt=""
+                  />
+                </div>
+                새로운 L005 스니커즈
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197937911-bfcc7f3a-9155-4eec-aa28-edb7cad95332.jpg"
+                    alt=""
+                  />
+                </div>
+                아이폰 케이스
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197937912-98aa6a4a-4783-40ce-b86f-4d55b440f74e.jpg"
+                    alt=""
+                  />
+                </div>
+                라코스테 x 트레셔
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="submenu_list">
+        
+        <div class="sub_item_container">
+          <div class="backerBox">
+            <button class="backer">
+              <span class="material-symbols-outlined"> arrow_back </span>
+            </button>
+            <span class="sub_firstDepth">
+              <span class="hometxt">홈</span>
+              / <span class="first_sub">Men</span>
+            </span>
+          </div>
+
+          <div class="sub_item_inner">
+            <ul class="s_items_container">
+              <li class="s_items_main_title">
+                <span>남성 컬렉션 보기</span>
+                <span>신상품</span>
+                <span>베스트셀러</span>
+              </li>
+              <li class="modify_height">
+                <span>의류</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Men</span> /
+                        <span class="second_sub">의류</span>
+                      </span>
+                    </div>
+                    <div class="second_main_title">
+                      <span>남성 의류 전체</span>
+                    </div>
+                    <p class="second_sub_item">폴로</p>
+                    <p class="second_sub_item">셔츠</p>
+                    <p class="second_sub_item">티셔츠</p>
+                    <p class="second_sub_item">니트 & 스웨터</p>
+                    <p class="second_sub_item">후드 & 스웻셔츠</p>
+                    <p class="second_sub_item">자켓 & 코트</p>
+                    <p class="second_sub_item">바지 & 반바지</p>
+                    <p class="second_sub_item">스포츠웨어</p>
+                    <p class="second_sub_item">언더웨어</p>
+                    <p class="second_sub_item">양말</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>신발</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Men</span> /
+                        <span class="second_sub">신발</span>
+                      </span>
+                    </div>
+                    <div class="second_main_title">
+                      <span>남성 신발 전체</span>
+                    </div>
+                    <p class="second_sub_item">스포츠</p>
+                    <p class="second_sub_item">캐주얼</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>액세서리</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Men</span> /
+                        <span class="second_sub">액세서리</span>
+                      </span>
+                    </div>
+                    <div class="second_main_title">
+                      <span>남성 액세서리 전체</span>
+                    </div>
+                    <p class="second_sub_item">모자</p>
+                    <p class="second_sub_item">벨트</p>
+                    <p class="second_sub_item">스카프 & 장갑</p>
+                    <p class="second_sub_item">아이폰 케이스</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>레더굿</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Men</span> /
+                        <span class="second_sub">레더굿</span>
+                      </span>
+                    </div>
+                    <div class="second_main_title">
+                      <span>남성 레더굿 전체</span>
+                    </div>
+                    <p class="second_sub_item">가방</p>
+                    <p class="second_sub_item">지갑</p>
+                  </div>
+                </div>
+              </li>
+              <li class="grid_modify">
+                <span>스포츠</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Men</span> /
+                        <span class="second_sub">스포츠</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">테니스</p>
+                    <p class="second_sub_item">골프</p>
+                    <p class="second_sub_item">피트니스 & 트레이닝</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="s_item_imgBox">
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197945370-1dc2d11e-90d0-4143-ab4a-baece002457e.png"
+                    alt=""
+                  />
+                </div>
+                스웨터 & 스웻셔츠
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197945386-fb5a6285-0e71-4934-8997-0df57e4f97b9.jpg"
+                    alt=""
+                  />
+                </div>
+                새로운 L005 스니커즈
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197945388-7ded0eac-c1dd-48a1-866d-4956d8d95030.jpg"
+                    alt=""
+                  />
+                  팀 크록
+                </div>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197945392-015e326a-4402-41d7-979c-425d6f15e7a2.jpg"
+                    alt=""
+                  />
+                </div>
+                온라인 단독 상품
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="submenu_list">
+        
+        <div class="sub_item_container">
+          <div class="backerBox">
+            <button class="backer">
+              <span class="material-symbols-outlined"> arrow_back </span>
+            </button>
+            <span class="sub_firstDepth">
+              <span class="hometxt">홈</span>
+              / <span class="first_sub">Women</span>
+            </span>
+          </div>
+          <div class="sub_item_inner">
+            <ul class="s_items_container">
+              <li class="s_items_main_title">
+                <span>여성 컬렉션 보기</span>
+                <span>신상품</span>
+                <span>베스트셀러</span>
+              </li>
+              <li class="modify_height">
+                <span>의류</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Women</span> /
+                        <span class="second_sub">의류</span>
+                      </span>
+                    </div>
+                    <div class="second_main_title">
+                      <span>여성 의류 전체</span>
+                    </div>
+                    <p class="second_sub_item">폴로</p>
+                    <p class="second_sub_item">셔츠</p>
+                    <p class="second_sub_item">티셔츠</p>
+                    <p class="second_sub_item">니트 & 스웨터</p>
+                    <p class="second_sub_item">후드 & 스웻셔츠</p>
+                    <p class="second_sub_item">자켓 & 코트</p>
+                    <p class="second_sub_item">바지 & 반바지</p>
+                    <p class="second_sub_item">스포츠웨어</p>
+                    <p class="second_sub_item">언더웨어</p>
+                    <p class="second_sub_item">양말</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span> 신발</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Women</span> /
+                        <span class="second_sub">신발</span>
+                      </span>
+                    </div>
+                    <div class="second_main_title">
+                      <span>여성 신발 전체</span>
+                    </div>
+                    <p class="second_sub_item">스포츠</p>
+                    <p class="second_sub_item">캐주얼</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span> 액세서리</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Women</span> /
+                        <span class="second_sub">액세서리</span>
+                      </span>
+                    </div>
+                    <div class="second_main_title">
+                      <span>여성 액세서리 전체</span>
+                    </div>
+                    <p class="second_sub_item">모자</p>
+                    <p class="second_sub_item">벨트</p>
+                    <p class="second_sub_item">스카프 & 장갑</p>
+                    <p class="second_sub_item">아이폰 케이스</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>레더굿</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Women</span> /
+                        <span class="second_sub">레더굿</span>
+                      </span>
+                    </div>
+                    <div class="second_main_title">
+                      <span>여성 레더굿 전체</span>
+                    </div>
+                    <p class="second_sub_item">가방</p>
+                    <p class="second_sub_item">지갑</p>
+                  </div>
+                </div>
+              </li>
+              <li class="grid_modify">
+                <span>스포츠</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Women</span> /
+                        <span class="second_sub">스포츠</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">테니스</p>
+                    <p class="second_sub_item">골프</p>
+                    <p class="second_sub_item">피트니스 & 트레이닝</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="s_item_imgBox">
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197945842-e739cf07-61df-4c3b-a500-0d56bff538d3.jpg"
+                    alt=""
+                  />
+                </div>
+                스웨터 & 스웻셔츠
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197945845-2cad1b39-131a-4589-918e-dcfd3f991546.jpg"
+                    alt=""
+                  />
+                </div>
+                새로운 L005 스니커즈
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197945841-82ad2a3a-3447-41b7-b6ef-40a48d0ff808.jpg"
+                    alt=""
+                  />
+                </div>
+                라코스테 레더굿
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197945392-015e326a-4402-41d7-979c-425d6f15e7a2.jpg"
+                    alt=""
+                  />
+                </div>
+                온라인 단독 상품
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="submenu_list">
+        
+        <div class="sub_item_container">
+          <div class="backerBox">
+            <button class="backer">
+              <span class="material-symbols-outlined"> arrow_back </span>
+            </button>
+            <span class="sub_firstDepth">
+              <span class="hometxt">홈</span>
+            </span>
+            / <span class="first_sub">Kids</span>
+          </div>
+          <div class="sub_item_inner">
+            <ul class="s_items_container">
+              <li class="s_items_main_title">
+                <span>키즈 컬렉션 보기</span>
+                <span>신상품</span>
+              </li>
+              <li>
+                <span>베이비 - 6-18 개월</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Kids</span> /
+                        <span class="second_sub">베이비 - 6-18 개월</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">의류</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>키즈 - 2-8 세</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Kids</span> /
+                        <span class="second_sub">키즈 - 2-8 세</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">남아 의류</p>
+                    <p class="second_sub_item">여아 의류</p>
+                    <p class="second_sub_item">신발</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>주니어 - 10-16 세</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Kids</span> /
+                        <span class="second_sub">주니어 - 10-16 세</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">남아 의류</p>
+                    <p class="second_sub_item">여아 의류</p>
+                    <p class="second_sub_item">신발</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="s_item_imgBox">
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197946909-efc961d4-3704-41e0-a83b-00e6ee9f6709.jpg"
+                    alt=""
+                  />
+                </div>
+                아이를 위한 선물
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197946910-c13a3094-63f3-422d-9307-1b4a49eeef0a.jpg"
+                    alt=""
+                  />
+                </div>
+                키즈 의류 전체보기
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197946905-88b6a443-bc4d-496e-b115-06d5280a294d.jpg"
+                    alt=""
+                  />
+                </div>
+                로고 XXL
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197946901-4f1e63f9-7f59-44a4-9cfa-a774d7b1dbec.jpg"
+                    alt=""
+                  />
+                </div>
+                Back to School
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="submenu_list">
+        
+        <div class="sub_item_container">
+          <div class="backerBox">
+            <button class="backer">
+              <span class="material-symbols-outlined"> arrow_back </span>
+            </button>
+            <span class="sub_firstDepth">
+              <span class="hometxt">홈</span>
+              / <span class="first_sub">Sale</span>
+            </span>
+          </div>
+          <div class="sub_item_inner">
+            <ul class="s_items_container">
+              <li class="s_items_main_title">
+                <span>세일 전체보기</span>
+              </li>
+              <li>
+                <span>남성 세일</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Sale</span> /
+                        <span class="second_sub">남성 세일</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">폴로</p>
+                    <p class="second_sub_item">셔츠</p>
+                    <p class="second_sub_item">티셔츠</p>
+                    <p class="second_sub_item">니트 & 스웨터</p>
+                    <p class="second_sub_item">후드 &스웻셔츠</p>
+                    <p class="second_sub_item">자켓 & 코트</p>
+                    <p class="second_sub_item">바지 & 반바지</p>
+                    <p class="second_sub_item">레더굿</p>
+                    <p class="second_sub_item">스포츠웨어</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>여성 세일</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Sale</span> /
+                        <span class="second_sub">여성 세일</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">폴로</p>
+                    <p class="second_sub_item">셔츠</p>
+                    <p class="second_sub_item">티셔츠</p>
+                    <p class="second_sub_item">니트 & 스웨터</p>
+                    <p class="second_sub_item">후드 &스웻셔츠</p>
+                    <p class="second_sub_item">자켓 & 코트</p>
+                    <p class="second_sub_item">바지 & 반바지</p>
+                    <p class="second_sub_item">레더굿</p>
+                    <p class="second_sub_item">스포츠웨어</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>FW21</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Sale</span> /
+                        <span class="second_sub">FW21 </span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">남성</p>
+                    <p class="second_sub_item">여성</p>
+                    <p class="second_sub_item">키즈</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>SS21</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Sale</span> /
+                        <span class="second_sub">SS21 </span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">남성</p>
+                    <p class="second_sub_item">여성</p>
+                    <p class="second_sub_item">키즈</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </li>
+      <li class="submenu_list">
+        
+        <div class="sub_item_container">
+          <div class="backerBox">
+            <button class="backer">
+              <span class="material-symbols-outlined"> arrow_back </span>
+            </button>
+            <span class="sub_firstDepth">
+              <span class="hometxt">홈</span>
+              / <span class="first_sub">Polo</span>
+            </span>
+          </div>
+          <div class="sub_item_inner">
+            <ul class="s_items_container">
+              <li class="s_items_main_title">
+                <span>폴로 스토어</span>
+                <span>나의 라코스테</span>
+              </li>
+              <li>
+                <span>남성</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Polo</span> /
+                        <span class="second_sub">남성 </span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">클래식 핏</p>
+                    <p class="second_sub_item">레귤러 핏</p>
+                    <p class="second_sub_item">슬림 핏</p>
+                    <p class="second_sub_item">반팔</p>
+                    <p class="second_sub_item">긴팔</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>여성</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Polo</span> /
+                        <span class="second_sub">여성</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">클래식 핏</p>
+                    <p class="second_sub_item">루즈 핏</p>
+                    <p class="second_sub_item">레귤러 핏</p>
+                    <p class="second_sub_item">슬림 핏</p>
+                    <p class="second_sub_item">반팔</p>
+                    <p class="second_sub_item">긴팔</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>키즈</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Polo</span> /
+                        <span class="second_sub">키즈</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">남아 폴로 2-8 세</p>
+                    <p class="second_sub_item">여아 폴로 2-8 세</p>
+                    <p class="second_sub_item">주니어 폴로 10-16 세</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>비하인드</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Polo</span> /
+                        <span class="second_sub">비하인드</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">노하우</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="s_item_imgBox">
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197947574-3a3dcbb1-dfd4-4aa0-974e-7f5dc5abc62d.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>폴로 스토어</span>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197947575-a323d7f7-0ae3-40ea-abab-fe890f5d66ba.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>L1212폴로</span>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197947570-3f16119d-2a94-4960-b2e1-bc42df23380f.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>스마트 파리 폴로</span>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197947572-5ff7cf27-b6c2-43d0-881b-8943db8d58fc.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>액티브 무브먼트 폴로</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="submenu_list">
+        <div class="sub_item_container">
+          <div class="backerBox">
+            <button class="backer">
+              <span class="material-symbols-outlined"> arrow_back </span>
+            </button>
+            <span class="sub_firstDepth">
+              <span class="hometxt">홈</span>
+              / <span class="first_sub">Collections</span>
+            </span>
+          </div>
+          <div class="sub_item_inner">
+            <ul class="s_items_container">
+              <li class="s_items_main_title">
+                <span>유니섹스 컬렉션</span>
+                <span>온라인 단독</span>
+              </li>
+              <li>
+                <span>크록 기프트</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Collections</span> /
+                        <span class="second_sub">크록 기프트</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">남성</p>
+                    <p class="second_sub_item">여성</p>
+                    <p class="second_sub_item">키즈</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>트렌딩</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Collections</span> /
+                        <span class="second_sub">트렌딩</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">팀 크록</p>
+                    <p class="second_sub_item">L005</p>
+                    <p class="second_sub_item">L003 액티브 런웨이 스니커즈</p>
+                    <p class="second_sub_item">라코스테 x 트레셔</p>
+                    <p class="second_sub_item">액티브 라이프스타일</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>스타일</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Collections</span> /
+                        <span class="second_sub">스타일</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">컬러-블록</p>
+                    <p class="second_sub_item">모노그램</p>
+                    <p class="second_sub_item">로고 XXL</p>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <span>스포츠</span>
+                <div class="second_menu">
+                  <div class="second_inner">
+                    <div class="second_index">
+                      <button class="backer">
+                        <span class="material-symbols-outlined">
+                          arrow_back
+                        </span>
+                      </button>
+                      <span class="sub_secondDepth">
+                        <span class="hometxt">홈</span> /
+                        <span class="first_sub">Collections</span> /
+                        <span class="second_sub">스포츠</span>
+                      </span>
+                    </div>
+                    <p class="second_sub_item">테니스</p>
+                    <p class="second_sub_item">골프</p>
+                    <p class="second_sub_item">피트니스 & 트레이닝</p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="s_item_imgBox">
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197945386-fb5a6285-0e71-4934-8997-0df57e4f97b9.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>팀 크록</span>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197937903-4e8cbc03-42f5-421e-bd97-1a41e8ad0623.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>새로운 L005 스니커즈</span>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197948096-93d24e2b-85a5-49cb-9dd6-772e12a435f6.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>패션 스포츠</span>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197937911-bfcc7f3a-9155-4eec-aa28-edb7cad95332.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>아이폰 케이스</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+      <li class="submenu_list">
+        
+        <div class="sub_item_container">
+          <div class="backerBox">
+            <button class="backer">
+              <span class="material-symbols-outlined"> arrow_back </span>
+            </button>
+            <span class="sub_firstDepth">
+              <span class="hometxt">홈</span>
+              / <span class="first_sub">We are Locoste</span>
+            </span>
+          </div>
+          <div class="sub_item_inner">
+            <div class="s_item_imgBox">
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197948535-6d183099-4973-4c53-809d-f0dee87131ba.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>건강함 우아함</span>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197948554-32128881-0ba8-4ffa-be95-349d0173ddc1.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>행동에 깃든 우아함</span>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197948556-9790f4af-383e-4311-94ea-b901844fd520.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>르네 라코스테</span>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197948558-97d450f9-8fbd-4891-9201-dc621627f161.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>스토리</span>
+              </div>
+              <div class="s_img_inner">
+                <div class="s_imgWraper">
+                  <img
+                    src="https://user-images.githubusercontent.com/102783842/197948560-951e413d-0025-430b-a464-917cd62c2ebf.jpg"
+                    alt=""
+                  />
+                </div>
+                <span>콜라보레이션</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </ul>
+    <script>
+      const header = document.querySelector("header");
+      const menu = document.querySelector(".menu");
+
+      const menu_opener = document.querySelector(".menuOpener");
+      const menu_closer = document.querySelector(".menuCloser");
+      menu_opener.addEventListener("click", () => {
+        header.classList.add("fixed");
+        menu_opener.classList.add("hidden");
+        menu.classList.add("on");
+        menu_closer.classList.add("on");
+      });
+
+      menu_closer.addEventListener("click", () => {
+        header.classList.remove("fixed");
+        menu_opener.classList.remove("hidden");
+        menu.classList.remove("on");
+        menu_closer.classList.remove("on");
+      });
+
+      const search = document.querySelector(".search_trigger");
+      const search_content = document.querySelector(".search_contents");
+      const search_close = document.querySelector(".search_close");
+      search.addEventListener("click", (e) => {
+        search_content.classList.add("active");
+      });
+      search_close.addEventListener("click", () => {
+        search_content.classList.remove("active");
+      });
+
+      const submenu_first = document.querySelectorAll(
+        ".main_menu li:not(:first-child):not(:last-child)"
+      );
+      const submenu_first_targets = document.querySelectorAll(".submenu>li");
+      const submenu = document.querySelector(".submenu");
+
+      submenu_first.forEach((el, i) => {
+        el.addEventListener("click", () => {
+          if (submenu_first_targets[i].classList.contains("on")) {
+            submenu_first_targets[i].classList.remove("on");
+            submenu.classList.remove("pointer");
+            submenu.classList.remove("opacity");
+            header.classList.remove("fixed");
+            menu.classList.remove("fixed");
+          } else {
+            for (let i = 0; i < submenu_first_targets.length; i++) {
+              submenu_first_targets[i].classList.remove("on");
+            }
+            submenu_first_targets[i].classList.add("on");
+            submenu.classList.add("pointer");
+            submenu.classList.add("opacity");
+            header.classList.add("fixed");
+            menu.classList.add("fixed");
+          }
+        });
+      });
+
+      const first_back = document.querySelectorAll(
+        ".sub_item_container .backerBox .backer"
+      );
+
+      first_back.forEach((el, i) => {
+        el.addEventListener("click", () => {
+          submenu_first_targets[i].classList.remove("on");
+          submenu.classList.remove("pointer");
+          submenu.classList.remove("opacity");
+        });
+      });
+
+      const second_trigger = document.querySelectorAll(
+        ".s_items_container li:not(:first-child)"
+      );
+      const second_menu = document.querySelectorAll(".second_menu");
+      const second_backer = document.querySelectorAll(".second_index .backer");
+
+      second_trigger.forEach((el, i) => {
+        el.addEventListener(
+          "click",
+          (e) => {
+            e.stopImmediatePropagation();
+            second_menu[i].classList.add("on");
+          },
+          false
+        );
+      });
+
+      second_backer.forEach((el, i) => {
+        el.addEventListener("click", (e) => {
+          e.stopImmediatePropagation();
+          second_menu[i].classList.remove("on");
+        });
+      });
+
+      const pc_close = document.querySelectorAll(".closeBox.pc");
+
+      pc_close.forEach((el, i) => {
+        el.addEventListener("click", () => {
+          submenu_first_targets[i].classList.remove("on");
+          submenu.classList.remove("pointer");
+          submenu.classList.remove("opacity");
+          header.classList.remove("fixed");
+          menu.classList.remove("fixed");
+        });
+      });
+    </script>
+    <div class="pop-up centers">
+      <p>사이트 개편 이후 첫 로그인 안내</p>
+      <a href="#">자세히 보기</a>
+    </div>
+    <main>
+      <video
+        playsinline="true"
+        muted="true"
+        autoplay="true"
+        loop="true"
+        class="paddings"
+        width="100%"
+        height="auto"
+      >
+        <source
+          src="https://static1.lacoste.com/videos/marketing/1A-ch2-mobile-20221012.mp4"
+          type="video/mp4"
+        />
+      </video>
+      <section class="text-area paddings">
+        <h1>팀 크록</h1>
+        <p style="margin: 20px 0">스타일로 가득 찬 행복한 순간들</p>
+        <div>
+          <button class="black-btn">남성</button>
+          <button class="black-btn">여성</button>
+        </div>
+      </section>
+    </main>
+    <article class="products paddings">
+      <div class="content01 margins">
+        <div class="slide slide_wrap">
+          <div class="slide_item item1"></div>
+          <div class="slide_item item2"></div>
+          <div class="slide_item item3"></div>
+          <div class="slide_item item4"></div>
+          <div class="slide_item item5"></div>
+          <div class="slide_prev_button slide_button"></div>
+          <div class="slide_next_button slide_button"></div>
+          <ul class="slide_pagination"></ul>
+        </div>
+        <script>
+          // 슬라이크 전체 크기(width 구하기)
+          const slide = document.querySelector(".slide");
+          let slideWidth = slide.clientWidth;
+
+          // 버튼 엘리먼트 선택하기
+          const prevBtn = document.querySelector(".slide_prev_button");
+          const nextBtn = document.querySelector(".slide_next_button");
+
+          // 슬라이드 전체를 선택해 값을 변경해주기 위해 슬라이드 전체 선택하기
+          let slideItems = document.querySelectorAll(".slide_item");
+          // 현재 슬라이드 위치가 슬라이드 개수를 넘기지 않게 하기 위한 변수
+          const maxSlide = slideItems.length;
+
+          // 버튼 클릭할 때 마다 현재 슬라이드가 어디인지 알려주기 위한 변수
+          let currSlide = 1;
+
+          // 페이지네이션 생성
+          const pagination = document.querySelector(".slide_pagination");
+
+          for (let i = 0; i < maxSlide; i++) {
+            if (i === 0) pagination.innerHTML += `<li class="active">•</li>`;
+            else pagination.innerHTML += `<li>•</li>`;
+          }
+
+          const paginationItems = document.querySelectorAll(
+            ".slide_pagination > li"
+          );
+
+          // 무한 슬라이드를 위해 start, end 슬라이드 복사하기
+          const startSlide = slideItems[0];
+          const endSlide = slideItems[slideItems.length - 1];
+          const startElem = document.createElement("div");
+          const endElem = document.createElement("div");
+
+          endSlide.classList.forEach((c) => endElem.classList.add(c));
+          endElem.innerHTML = endSlide.innerHTML;
+
+          startSlide.classList.forEach((c) => startElem.classList.add(c));
+          startElem.innerHTML = startSlide.innerHTML;
+
+          // 각 복제한 엘리먼트 추가하기
+          slideItems[0].before(endElem);
+          slideItems[slideItems.length - 1].after(startElem);
+
+          // 슬라이드 전체를 선택해 값을 변경해주기 위해 슬라이드 전체 선택하기
+          slideItems = document.querySelectorAll(".slide_item");
+          //
+          let offset = slideWidth + currSlide;
+          slideItems.forEach((i) => {
+            i.setAttribute("style", `left: ${-offset}px`);
+          });
+
+          function nextMove() {
+            currSlide++;
+            // 마지막 슬라이드 이상으로 넘어가지 않게 하기 위해서
+            if (currSlide <= maxSlide) {
+              // 슬라이드를 이동시키기 위한 offset 계산
+              const offset = slideWidth * currSlide;
+              // 각 슬라이드 아이템의 left에 offset 적용
+              slideItems.forEach((i) => {
+                i.setAttribute("style", `left: ${-offset}px`);
+              });
+              // 슬라이드 이동 시 현재 활성화된 pagination 변경
+              paginationItems.forEach((i) => i.classList.remove("active"));
+              paginationItems[currSlide - 1].classList.add("active");
+            } else {
+              // 무한 슬라이드 기능 - currSlide 값만 변경해줘도 되지만 시각적으로 자연스럽게 하기 위해 아래 코드 작성
+              currSlide = 0;
+              let offset = slideWidth * currSlide;
+              slideItems.forEach((i) => {
+                i.setAttribute(
+                  "style",
+                  `transition: ${0}s; left: ${-offset}px`
+                );
+              });
+              currSlide++;
+              offset = slideWidth * currSlide;
+              // 각 슬라이드 아이템의 left에 offset 적용
+              setTimeout(() => {
+                // 각 슬라이드 아이템의 left에 offset 적용
+                slideItems.forEach((i) => {
+                  // i.setAttribute("style", `transition: ${0}s; left: ${-offset}px`);
+                  i.setAttribute(
+                    "style",
+                    `transition: ${0.15}s; left: ${-offset}px`
+                  );
+                });
+              }, 0);
+              // // 슬라이드 이동 시 현재 활성화된 pagination 변경
+              paginationItems.forEach((i) => i.classList.remove("active"));
+              paginationItems[currSlide - 1].classList.add("active");
+            }
+          }
+          function prevMove() {
+            currSlide--;
+            // 1번째 슬라이드 이하로 넘어가지 않게 하기 위해서
+            if (currSlide > 0) {
+              // 슬라이드를 이동시키기 위한 offset 계산
+              const offset = slideWidth * currSlide;
+              // 각 슬라이드 아이템의 left에 offset 적용
+              slideItems.forEach((i) => {
+                i.setAttribute("style", `left: ${-offset}px`);
+              });
+              // 슬라이드 이동 시 현재 활성화된 pagination 변경
+              paginationItems.forEach((i) => i.classList.remove("active"));
+              paginationItems[currSlide - 1].classList.add("active");
+            } else {
+              // 무한 슬라이드 기능 - currSlide 값만 변경해줘도 되지만 시각적으로 자연스럽게 하기 위해 아래 코드 작성
+              currSlide = maxSlide + 1;
+              let offset = slideWidth * currSlide;
+              // 각 슬라이드 아이템의 left에 offset 적용
+              slideItems.forEach((i) => {
+                i.setAttribute(
+                  "style",
+                  `transition: ${0}s; left: ${-offset}px`
+                );
+              });
+              currSlide--;
+              offset = slideWidth * currSlide;
+              setTimeout(() => {
+                // 각 슬라이드 아이템의 left에 offset 적용
+                slideItems.forEach((i) => {
+                  // i.setAttribute("style", `transition: ${0}s; left: ${-offset}px`);
+                  i.setAttribute(
+                    "style",
+                    `transition: ${0.15}s; left: ${-offset}px`
+                  );
+                });
+              }, 0);
+              // 슬라이드 이동 시 현재 활성화된 pagination 변경
+              paginationItems.forEach((i) => i.classList.remove("active"));
+              paginationItems[currSlide - 1].classList.add("active");
+            }
+          }
+
+          // 버튼 엘리먼트에 클릭 이벤트 추가하기
+          nextBtn.addEventListener("click", () => {
+            // 이후 버튼 누를 경우 현재 슬라이드를 변경
+            nextMove();
+          });
+          // 버튼 엘리먼트에 클릭 이벤트 추가하기
+          prevBtn.addEventListener("click", () => {
+            // 이전 버튼 누를 경우 현재 슬라이드를 변경
+            prevMove();
+          });
+
+          // 브라우저 화면이 조정될 때 마다 slideWidth를 변경하기 위해
+          window.addEventListener("resize", () => {
+            slideWidth = slide.clientWidth;
+          });
+
+          // 각 페이지네이션 클릭 시 해당 슬라이드로 이동하기
+          for (let i = 0; i < maxSlide; i++) {
+            // 각 페이지네이션마다 클릭 이벤트 추가하기
+            paginationItems[i].addEventListener("click", () => {
+              // 클릭한 페이지네이션에 따라 현재 슬라이드 변경해주기(currSlide는 시작 위치가 1이기 때문에 + 1)
+              currSlide = i + 1;
+              // 슬라이드를 이동시키기 위한 offset 계산
+              const offset = slideWidth * currSlide;
+              // 각 슬라이드 아이템의 left에 offset 적용
+              slideItems.forEach((i) => {
+                i.setAttribute("style", `left: ${-offset}px`);
+              });
+              // 슬라이드 이동 시 현재 활성화된 pagination 변경
+              paginationItems.forEach((i) => i.classList.remove("active"));
+              paginationItems[currSlide - 1].classList.add("active");
+            });
+          }
+
+          // 드래그(스와이프) 이벤트를 위한 변수 초기화
+          let startPoint = 0;
+          let endPoint = 0;
+
+          // PC 클릭 이벤트 (드래그)
+          slide.addEventListener("mousedown", (e) => {
+            startPoint = e.pageX; // 마우스 드래그 시작 위치 저장
+          });
+
+          slide.addEventListener("mouseup", (e) => {
+            endPoint = e.pageX; // 마우스 드래그 끝 위치 저장
+            if (startPoint < endPoint) {
+              // 마우스가 오른쪽으로 드래그 된 경우
+              prevMove();
+            } else if (startPoint > endPoint) {
+              // 마우스가 왼쪽으로 드래그 된 경우
+              nextMove();
+            }
+          });
+
+          // 모바일 터치 이벤트 (스와이프)
+          slide.addEventListener("touchstart", (e) => {
+            startPoint = e.touches[0].pageX; // 터치가 시작되는 위치 저장
+          });
+          slide.addEventListener("touchend", (e) => {
+            endPoint = e.changedTouches[0].pageX; // 터치가 끝나는 위치 저장
+            if (startPoint < endPoint) {
+              // 오른쪽으로 스와이프 된 경우
+              prevMove();
+            } else if (startPoint > endPoint) {
+              // 왼쪽으로 스와이프 된 경우
+              nextMove();
+            }
+          });
+
+          // 기본적으로 슬라이드 루프 시작하기
+          let loopInterval = setInterval(() => {
+            nextMove();
+          }, 3000);
+
+          // 슬라이드에 마우스가 올라간 경우 루프 멈추기
+          slide.addEventListener("mouseover", () => {
+            clearInterval(loopInterval);
+          });
+
+          // 슬라이드에서 마우스가 나온 경우 루프 재시작하기
+          slide.addEventListener("mouseout", () => {
+            loopInterval = setInterval(() => {
+              nextMove();
+            }, 3000);
+          });
+        </script>
+        <section class="text-area">
+          <h1>당신만의 라코스테</h1>
+          <p style="margin: 20px 0; width: 50%">
+            남성과 여성을 위한 라코스테 의류로 더 나아가세요. 일상의 모험에서
+            완벽하고 자유로운 움직임을 위한 패션입니다.
+          </p>
+          <button class="black-btn">자세히 보기</button>
+        </section>
+      </div>
+      <div class="content02 margins">
+        <!--slide-->
+        <section>
+          <ul id="slides2">
+            <li class="slide2 showing"></li>
+            <li class="slide2"></li>
+            <li class="slide2"></li>
+            <li class="slide2"></li>
+          </ul>
+          <script>
+            var slides = document.querySelectorAll("#slides2 .slide2");
+            var currentSlide = 0;
+            var slideInterval = setInterval(nextSlide, 2000);
+
+            function nextSlide() {
+              goToSlide(currentSlide + 1);
+            }
+
+            function previousSlide() {
+              goToSlide(currentSlide - 1);
+            }
+
+            function goToSlide(n) {
+              slides[currentSlide].className = "slide2";
+              currentSlide = (n + slides.length) % slides.length;
+              slides[currentSlide].className = "slide2 showing";
+            }
+            var playing = true;
+            var pauseButton = document.getElementById("pause");
+
+            function pauseSlideshow() {
+              pauseButton.innerHTML = "Play";
+              playing = false;
+              clearInterval(slideInterval);
+            }
+
+            function playSlideshow() {
+              pauseButton.innerHTML = "Pause";
+              playing = true;
+              slideInterval = setInterval(nextSlide, 2000);
+            }
+            pauseButton.onclick = function () {
+              if (playing) {
+                pauseSlideshow();
+              } else {
+                playSlideshow();
+              }
+            };
+            var next = document.getElementById("next");
+            var previous = document.getElementById("previous");
+            next.onclick = function () {
+              pauseSlideshow();
+              nextSlide();
+            };
+            previous.onclick = function () {
+              pauseSlideshow();
+              previousSlide();
+            };
+          </script>
+        </section>
+        <section class="text-area">
+          <h1 style="width: 60%">L003 액티브 런웨이 스니커즈</h1>
+          <p style="margin: 20px 0; width: 50%">
+            새로운 라코스테 L003 액티브 런웨이로 모든 단계에서 영감을 얻으세요.
+          </p>
+          <button class="black-btn">구매하기</button>
+        </section>
+      </div>
+      <div class="content03 margins">
+        <!--slide-->
+        <section></section>
+        <section class="text-area">
+          <h4 style="margin-top: 30px; margin-bottom: -15px">
+            라코스테 컬렉션
+          </h4>
+          <h1 style="width: 60%">베이직 V넥 방모 가디건</h1>
+          <p style="margin: 20px 0; width: 80%">
+            얼굴을 갸름하게 만들어주는 V넥라인으로 소매라인에 턱 포인트로
+            스타일리쉬하며 도톰하고 늘어지지 않아 데일리로 걸치기 좋은
+            가디건입니다.
+          </p>
+          <button class="black-btn">구매하기</button>
+        </section>
+      </div>
+      <div class="content04 margins">
+        <section class="video-area">
+          <img
+            src="https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Library-Sites-LacosteContent/default/dw78acff3f/2022/FW22/module/online-best/onlinebest-block-desk.jpg?imwidth=840&impolicy=custom"
+          />
+          <video
+            playsinline="true"
+            muted="true"
+            autoplay="true"
+            loop="true"
+            width="100%"
+            height="auto"
+            opacity="0"
+          >
+            <source
+              src="https://static1.lacoste.com/videos/marketing/3A-l005-mobile-20221012.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </section>
+        <section class="text-area">
+          <h1 style="width: 60%">L005 스니커즈. 모던 클래식.</h1>
+          <p style="margin: 20px 0; width: 80%">
+            모던하며 하나뿐인 디자인. 당신의 발끝에서부터 시작하는 테니스
+            스타일. 어디서든 라코스테 L005와 함께하세요.
+          </p>
+          <button class="black-btn">자세히 보기</button>
+        </section>
+      </div>
+      <div class="content05 margins">
+        <!--slide-->
+        <section>
+          <img
+            name="slider5"
+            width="100%"
+            height="600"
+            src="https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Library-Sites-LacosteContent/default/dw95c1285c/2022/FW22/homepage/202209/block-kids-mob.jpg?imwidth=765&impolicy=custom"
+          />
+        </section>
+        <script>
+          var i = 0;
+          var images = [];
+          var time = 3000;
+          images[0] =
+            "https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Library-Sites-LacosteContent/default/dw95c1285c/2022/FW22/homepage/202209/block-kids-mob.jpg?imwidth=765&impolicy=custom";
+          images[1] =
+            "https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Sites-master/default/dw47d5bc4a/SJ9818-52N_NE1_20.jpg?imwidth=915&impolicy=product";
+          images[2] =
+            "https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Sites-master/default/dw0d327ee7/GJ9733-52N_CCA_20.jpg?imwidth=915&impolicy=product";
+          images[3] =
+            "https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Library-Sites-LacosteContent/default/dw915b5573/2022/FW22/navigation/pushimg-kids.jpg?impolicy=custom&imwidth=540";
+          images[4] =
+            "https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Library-Sites-LacosteContent/default/dwbbd4748d/2022/FW22/PLP/202209/plpheader-junior-desk.jpg?imwidth=915&impolicy=custom";
+
+          function changeSlide() {
+            //이미지배열을 문서중 slider 네임이 있는 코드에 src를 배열로 넘김, 네임은 겟엘리먼트바이 이런거 안해도 됨.
+            document.slider5.src = images[i];
+            //i가 인덱스의 수보다 작다면 i에 1씩 추가해서 반복
+            //현재 인덱스가 전체인덱스 수보다 작을때 트루
+            //현재 인덱스가 전체인덱스와 같거나 크게 되면 폴스
+            //i가 전체인덱스보다 같거나 커지는 것을 방어
+            if (i < images.length - 1) {
+              i++;
+              //폴스라면 i는 초기값 0 이 됨
+              //인덱스는 0으로 돌아가서 슬라이드가 실행
+            } else {
+              i = 0;
+            }
+            // 펑션을 타임변수에 저장된 시간 간격으로 실행하라
+            setTimeout("changeSlide()", time);
+          }
+          // onload - 윈도우가 로드되면 자동 실행되는 메소드
+          window.onload = changeSlide;
+        </script>
+        <section class="text-area">
+          <h1>라코스테 키즈 크록</h1>
+          <p style="margin: 20px 0; width: 50%">
+            라코스테 크록으로 우리 모두 하나가 되어요.
+          </p>
+          <button class="black-btn">구매하기</button>
+        </section>
+      </div>
+    </article>
+    <article class="guide paddings margins">
+      <h2>신상품 BEST 30</h2>
+      <div class="wrap">
+        <div class="scroll-wrap">
+          <div class="scroll-element">
+            <h3 style="padding-top: 300px; margin-left: 25px">온라인 베스트</h3>
+            <button style="margin-left: 25px" class="white-btn">
+              자세히 보기
+            </button>
+          </div>
+          <div class="scroll-element">
+            <h3 style="padding-top: 300px; margin-left: 25px">남성</h3>
+            <button style="margin-left: 25px" class="white-btn">
+              자세히 보기
+            </button>
+          </div>
+          <div class="scroll-element">
+            <h3 style="padding-top: 300px; margin-left: 25px">여성</h3>
+            <button style="margin-left: 25px" class="white-btn">
+              자세히 보기
+            </button>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="featured paddings margins">
+      <h2>The Lacoste World</h2>
+      <div class="wrap">
+        <div class="scroll-wrap">
+          <div class="scroll-element">
+            <img
+              src="https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Sites-master/default/dw20609219/BF306E-52N_031_20.jpg?imwidth=765&impolicy=product"
+            />
+            <p class="bolds">구스다운 리버시블 경량 베스트</p>
+            <p class="gray-ft">여성 의류</p>
+            <small>279,000 원</small>
+          </div>
+          <div class="scroll-element">
+            <img
+              src="https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Sites-master/default/dw376757fc/SH960E-52N_02S_20.jpg?imwidth=765&impolicy=product"
+            />
+            <p class="bolds">세미 팬시 크루넥 스웻셔츠</p>
+            <p class="gray-ft">남성 의류</p>
+            <small>189,000 원</small>
+          </div>
+          <div class="scroll-element">
+            <img
+              src="https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Sites-master/default/dw4c5d2d69/RZ0029W52N_216_01.jpg?imwidth=765&impolicy=product"
+            />
+            <p class="bolds">스트레이트세트 골드 크록 스니커즈</p>
+            <p class="gray-ft">여성 신발</p>
+            <small>149,000 원</small>
+          </div>
+          <div class="scroll-element">
+            <img
+              src="https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Sites-master/default/dw3f1fe329/RZ0148W52N_02H_01.jpg?imwidth=765&impolicy=product"
+            />
+            <p class="bolds">라코스테 L005 가죽 스니커즈</p>
+            <p class="gray-ft">여성 신발</p>
+            <small>159,000 원</small>
+          </div>
+          <div class="scroll-element">
+            <img
+              src="https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Sites-master/default/dw43bf80d3/PH248E-52N_02S_20.jpg?imwidth=765&impolicy=product"
+            />
+            <p class="bolds">긴팔 PARIS 폴로</p>
+            <p class="gray-ft">남성 의류</p>
+            <small>179,000 원</small>
+          </div>
+          <div class="scroll-element">
+            <img
+              src="https://imageapac1.lacoste.com/dw/image/v2/BBCL_PRD/on/demandware.static/-/Sites-master/default/dw0ecd6938/AH909E-52N_031_20.jpg?imwidth=765&impolicy=product"
+            />
+            <p class="bolds">남성 골프 하이넥 집업 스웨터</p>
+            <p class="gray-ft">남성 의류</p>
+            <small>299,000 원</small>
+          </div>
+        </div>
+      </div>
+    </article>
+    <article class="quiry">
+      <section class="inquiry" style="background: #f8f8f9; padding: 60px 5%">
+        <h1>Inquiry</h1>
+        <div class="inputBox flexs align-centers">
+          <p class="tit">Name<span>*</span></p>
+          <input type="text" id="name" name="v_name" maxlength="30" class="i_box" /><span
+            class="i_focus"
+          ></span>
+        </div>
+        <div class="inputBox">
+          <p class="tit">country <span>*</span></p>
+          <select name="v_nation" class="select">
+            <option value="">All</option>
+            <option value="1">Albania</option>
+            <option value="2">Algeria</option>
+            <option value="4">Argentina</option>
+            <option value="5">Australia</option>
+            <option value="6">Austria</option>
+            <option value="3">Azerbaijan</option>
+            <option value="121">Bahrain</option>
+            <option value="7">Bangladesh</option>
+            <option value="9">Belarus</option>
+            <option value="8">Belgium</option>
+            <option value="10">Bhutan</option>
+            <option value="11">Bolivia</option>
+            <option value="12">Brazil</option>
+            <option value="13">Bulgaria</option>
+            <option value="14">Cambodia</option>
+            <option value="15">Canada</option>
+            <option value="16">Chile</option>
+            <option value="17">China</option>
+            <option value="18">Colombia</option>
+            <option value="19">Costa Rica</option>
+            <option value="20">Croatia</option>
+            <option value="21">Cuba</option>
+            <option value="22">Cyprus</option>
+            <option value="23">Czech Republic</option>
+            <option value="24">Denmark</option>
+            <option value="25">Dominica</option>
+            <option value="26">Ecuador</option>
+            <option value="30">Egypt</option>
+            <option value="27">El Salvador</option>
+            <option value="29">Estonia</option>
+            <option value="28">Ethiopia</option>
+            <option value="31">Finland</option>
+            <option value="32">France</option>
+            <option value="33">Gabon</option>
+            <option value="35">Gambia</option>
+            <option value="34">Georgia</option>
+            <option value="36">Germany</option>
+            <option value="37">Ghana</option>
+            <option value="38">Greece</option>
+            <option value="39">Guam</option>
+            <option value="40">Guatemala</option>
+            <option value="41">Honduras</option>
+            <option value="42">Hong Kong</option>
+            <option value="43">Hungary</option>
+            <option value="44">Iceland</option>
+            <option value="45">India</option>
+            <option value="46">Indonesia</option>
+            <option value="47">Iran</option>
+            <option value="48">Iraq</option>
+            <option value="52">Iraq-Saudi Arabia Neutral Zone</option>
+            <option value="49">Ireland</option>
+            <option value="50">Israel</option>
+            <option value="51">Italy</option>
+            <option value="53">Jamaica</option>
+            <option value="54">Japan</option>
+            <option value="55">Jordan</option>
+            <option value="56">Kazakhstan</option>
+            <option value="57">Kenya</option>
+            <option value="58">Kuwait</option>
+            <option value="59">Lao People's Democratic Republic</option>
+            <option value="61">Latvia</option>
+            <option value="60">Lebanon</option>
+            <option value="62">Lithuania</option>
+            <option value="63">Macao</option>
+            <option value="64">Malaysia</option>
+            <option value="65">Malta</option>
+            <option value="66">Mexico</option>
+            <option value="69">Moldova</option>
+            <option value="67">Monaco</option>
+            <option value="68">Mongolia</option>
+            <option value="70">Morocco</option>
+            <option value="71">Myanmar</option>
+            <option value="72">Namibia</option>
+            <option value="73">Nepal</option>
+            <option value="74">Netherlands</option>
+            <option value="75">New Zealand</option>
+            <option value="77">North Korea</option>
+            <option value="76">Norway</option>
+            <option value="79">Oman</option>
+            <option value="81">Pakistan</option>
+            <option value="80">Palau</option>
+            <option value="82">Papua New Guinea</option>
+            <option value="83">Paraguay</option>
+            <option value="84">Peru</option>
+            <option value="85">Philippines</option>
+            <option value="86">Poland</option>
+            <option value="87">Portugal</option>
+            <option value="88">Qatar</option>
+            <option value="89">Romania</option>
+            <option value="90">Russia</option>
+            <option value="91">Rwanda</option>
+            <option value="92">Saudi Arabia</option>
+            <option value="93">Senegal</option>
+            <option value="94">Serbia</option>
+            <option value="95">Singapore</option>
+            <option value="96">Slovakia</option>
+            <option value="97">South Africa</option>
+            <option value="78">South Korea</option>
+            <option value="100">South Sudan</option>
+            <option value="99">Spain</option>
+            <option value="98">Sri Lanka</option>
+            <option value="101">Sudan</option>
+            <option value="102">Sweden</option>
+            <option value="103">Switzerland</option>
+            <option value="104">Taiwan</option>
+            <option value="105">Thailand</option>
+            <option value="106">Togo</option>
+            <option value="107">Tunisia</option>
+            <option value="108">Turkey</option>
+            <option value="109">Uganda</option>
+            <option value="110">Ukraine</option>
+            <option value="111">United Arab Emirates</option>
+            <option value="112">United Kingdom</option>
+            <option value="114">Uruguay</option>
+            <option value="113">USA</option>
+            <option value="115">Uzbekistan</option>
+            <option value="117">Venezuela</option>
+            <option value="116">Vietnam</option>
+            <option value="118">Yemen</option>
+            <option value="119">Zambia, Republic of</option>
+            <option value="120">Zimbabwe</option>
+          </select>
+        </div>
+        <div class="inputBox">
+          <p class="tit">Email<span>*</span></p>
+          <input type="text" id="email" name="v_email" maxlength="50" class="i_box" /><span
+            class="i_focus"
+          ></span>
+        </div>
+        <div class="textarea">
+          <p class="tit">Inquiries<span>*</span></p>
+          <textarea id="inquiry" name="v_content" class="i_box"></textarea
+          ><span class="i_focus"></span>
+        </div>
+        <div class="formBox">
+          <div class="space-betweens">
+            <div class="checkBox">
+              <input type="checkbox" id="agreeCheck" />
+              <label for="agreeCheck"></label>
+            </div>
+            <p>
+              개인 정보의 수집 및 사용에 동의해야 합니다.
+            </p>
+          </div>
+          <a href="#" style="text-decoration: underline">More</a>
+        </div>
+        <button class="blue-btn" style="margin-top: 40px" onclick="check1()" value="confirm">Send</button>
+        <script>
+          function check1(){
+            var chk1=document.getElementById("agreeCheck").checked;
+              if(document.getElementById("name").value==""){
+                  alert("이름을 입력해 주세요.");
+                  return;
+              }
+              if(document.getElementById("name").value.length<2){
+                alert("이름 제대로 입력 하세요.");
+                  return;
+              }
+              if(document.getElementById("email").value==""){
+                  alert("이메일을 입력해 주세요.");
+                  return;
+              }
+              if(!CheckEmail(document.getElementById("email").value))	{
+                alert("이메일 형식이 잘못되었습니다.");
+                obEmail.focus();
+                return;
+              }
+              if(document.getElementById("inquiry").value==""){
+                  alert("문의 내용을 입력해 주세요.");
+                  return;
+              } 
+              if(!chk1){
+              alert('약관 동의 후 문의 가능 합니다.');
+              return false;
+              } 
+            else{
+              alert("서버에 성공적으로 전송되었습니다.");}
+              frm.submit(); //직접 submit()이라는 메소드를 호출. 액션을 들고 가줌      
+          }
+          function CheckEmail(str){                                                       
+            var reg_email = /^([0-9a-zA-Z_\.-]+)@([0-9a-zA-Z_-]+)(\.[0-9a-zA-Z_-]+){1,2}$/;
+               if(!reg_email.test(str)) {                            
+                    return false;         
+               }                            
+               else {                       
+                    return true;         
+               }                            
+          }
+      </script>
+      </section>
+      <section
+        class="news-letter"
+        style="background: #f2f2f5; padding: 60px 5%"
+      >
+        <h1 style="margin: 0">Newsletter</h1>
+        <p class="bolds" style="margin: 50px 0">
+          만약 당신이 우리의 뉴스레터를 구독하고 싶다면,<br />다음을 클릭하세요.
+        </p>
+        <div class="inputBox">
+          <p class="tit">Name<span>*</span></p>
+          <input type="text" id="s_name" name="v_name" maxlength="30" class="i_box" /><span
+            class="i_focus"
+          ></span>
+        </div>
+        <div class="inputBox">
+          <p class="tit">Email<span>*</span></p>
+          <input type="text" id="s_email" name="v_email" maxlength="50" class="i_box" /><span
+            class="i_focus"
+          ></span>
+        </div>
+        <div class="formBox">
+          <div class="space-betweens">
+            <div class="checkBox">
+              <input type="checkbox" id="agreeCheck2" />
+              <label for="agreeCheck2"></label>
+            </div>
+            <p>
+              개인 정보의 수집 및 사용에 동의해야 합니다.
+            </p>
+          </div>
+          <a href="#" style="text-decoration: underline">More</a>
+        </div>
+        <button
+          class="blue-btn"
+          style="
+            margin-top: 40px;
+            border: 1px solid black;
+            background: transparent;
+            color: black;
+          " onclick="check()" 
+       value="confirm"
+        >
+          Subscribe
+        </button>
+        <script>
+          function check(){
+            var chk2=document.getElementById("agreeCheck2").checked;
+              if(document.getElementById("s_name").value==""){
+                  alert("이름을 입력해 주세요.");
+                  return;
+              }
+              if(document.getElementById("s_name").value.length<2){
+                alert("이름을 제대로 입력 하세요.");
+                  return;
+              }
+              if(document.getElementById("s_email").value==""){
+                  alert("이메일을 입력해 주세요.");
+                  return;
+              }
+              if(!CheckEmail(document.getElementById("s_email").value))	{
+                alert("이메일 형식이 잘못되었습니다.");
+                obEmail.focus();
+                return;
+              }
+              if(!chk2){
+              alert('약관 동의 후 구독 가능 합니다.');
+              return false;
+              } 
+            else{
+              confirm("정말로 구독 하시겠습니까?");}
+              frm.submit(); 
+          }
+          function CheckEmail(str){                                                       var reg_email = /^([0-9a-zA-Z_\.-]+)@([0-9a-zA-Z_-]+)(\.[0-9a-zA-Z_-]+){1,2}$/;
+               if(!reg_email.test(str)) {                            
+                    return false;         
+               }                            
+               else {                       
+                    return true;         
+               }                            
+          }
+        </script>
+      </section>
+    </article>
+    <footer style="background: #111111; padding: 40px 0; color: white">
+      <section class="footer01 paddings">
+        <ul style="line-height: 2rem">
+          <li>새로운 소식</li>
+          <li>멤버가입</li>
+          <li>매장안내</li>
+          <li>라코스테 저널</li>
+        </ul>
+      </section>
+      <hr style="margin: 20px 10px 0 10px; border-bottom: 1px solid #323232" />
+      <section class="footer02">
+        <ul class="list">
+          <li class="listq paddings">도움말</li>
+          <div class="lista">
+            <ul
+              class="paddings"
+              style="color: #737373; line-height: 2rem; font-size: 0.8rem"
+            >
+              <li>로그인 안내</li>
+              <li>주문배송조회</li>
+              <li>반품 정책</li>
+              <li>결제 방법</li>
+              <li>공지사항</li>
+              <li>문의하기</li>
+            </ul>
+            <hr
+              style="margin: 20px 10px 0 10px; border-bottom: 1px solid #323232"
+            />
+          </div>
+          <li class="listq paddings">ABOUT LACOSTE</li>
+          <div class="lista">
+            <ul
+              class="paddings"
+              style="color: #737373; line-height: 2rem; font-size: 0.8rem"
+            >
+              <li>소식</li>
+              <li>채용</li>
+              <li>투자자</li>
+              <li>지속가능성</li>
+            </ul>
+            <hr style="margin: 20px 10px; border-bottom: 1px solid #323232" />
+          </div>
+        </ul>
+        <script>
+          window.addEventListener("load", function () {
+            const List = document.querySelectorAll(".list > li");
+            for (let i = 0; i < List.length; i++) {
+              List[i].addEventListener("click", function () {
+                var panel = this.nextElementSibling;
+                //클래스가 있을때와 없을때를 구분
+                if (panel.classList.contains("list-see")) {
+                  panel.classList.remove("list-see");
+                  this.classList.remove("befores");
+                  panel.style.maxHeight = null;
+                } else {
+                  clearlist();
+                  panel.classList.add("list-see");
+                  this.classList.add("befores");
+                  panel.style.maxHeight = panel.scrollHeight + "px";
+                }
+              });
+            }
+
+            function clearlist() {
+              for (let i = 0; i < List.length; i++) {
+                var panel = List[i].nextElementSibling;
+                panel.classList.remove("list-see");
+                List[i].classList.remove("befores");
+                panel.style.maxHeight = null;
+              }
+            }
+          });
+        </script>
+        <div class="sns-box flexs paddings">
+          <div>
+            <img
+              alt="Twitter"
+              src="https://raw.githubusercontent.com/heyangineer/lacoste-ui/c3c7f7712597443d692048cd78052b8fcebc5a21/img/twitter.png"
+            />
+          </div>
+          <div>
+            <img
+              alt="facebook"
+              src="https://raw.githubusercontent.com/heyangineer/lacoste-ui/c3c7f7712597443d692048cd78052b8fcebc5a21/img/facebook.png"
+            />
+          </div>
+          <div>
+            <img
+              alt="Instagram"
+              src="https://raw.githubusercontent.com/heyangineer/lacoste-ui/c3c7f7712597443d692048cd78052b8fcebc5a21/img/instagram.png"
+            />
+          </div>
+        </div>
+        <div class="locate paddings flexs align-centers">
+          <span class="material-symbols-outlined">location_on</span>
+          <h5 style="margin-left: 10px">대한민국</h5>
+        </div>
+        <small class="paddings" style="color: #777777; margin: 20px 0"
+          >© 2022 Lacoste, Inc. All Rights Reserved</small
+        >
+        <small class="terms paddings">이용약관</small>
+        <small class="paddings bolds">개인정보처리방침</small>
+      </section>
+      <hr style="margin: 20px 10px; border-bottom: 1px solid #7e7e7e" />
+      <section class="footer03 paddings">
+        <small class="address"
+          >(주)동일드방레 ┃ 대표이사 배재현 ┃ 서울특별시 영등포구 여의대로 108,
+          파크원 타워1 31층 ┃ 사업자등록번호 120-86-05491 <a>사업자정보확인</a
+          ><br />통신판매업신고번호제2022-서울영등포-1744호
+          <div></div>
+          <br />개인정보관리책임자: 송현귀 CUSTOMER SERVICE TEL
+          <a>1588-9619</a>, CS-<a>KR@LACOSTE.COM</a>
+          <div></div>
+          <br />서울보증보험(주) 이행보증보험 고객님은 안전거래를 위해
+          현금등으로 결제시 결제금액 전액에 대해 저희 쇼핑몰에서 가입한
+          서울보증보험(주)의 <a>이행보증보험 서비스</a>를 이용하실 수
+          있습니다</small
+        >
+      </section>
+    </footer>
+  </body>
+</html>
